@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+:root {
+  --primary-color: #FF5959;
+  --secondary-color: #707070;
+  --card-1: rgba(79, 157, 166, 0.1);
+  --card-2: rgba(255, 89, 89, 0.1);
+  --card-3: #FFF4D6;
+}
+header {
+  height: 100vh;
+  background: url(./assets/images/donation9.jpg),
+    linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+#nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+    gap: 25px;
+    padding: 0 157px;
+}
+#nav-container h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 54.46px;
+}
+#nav-container p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.btn {
+    padding: 16px 20.5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border: none;
+}
