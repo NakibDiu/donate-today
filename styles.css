@@ -3,12 +3,26 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 :root {
   --primary-color: #FF5959;
   --secondary-color: #707070;
   --card-1: rgba(79, 157, 166, 0.1);
   --card-2: rgba(255, 89, 89, 0.1);
   --card-3: #FFF4D6;
+}
+h2 {
+  font-size: 45px;
+  font-weight:700;
+  line-height: 54.46px;
+}
+p {
+  font-size: 18px;
+  font-weight:400;
+  line-height: 28px;
 }
 header {
   height: 669px;
@@ -103,4 +117,121 @@ header {
   font-size: 18px;
   padding: 10px;
   outline: none;
+}
+/* plans styles */
+#plans {
+  margin-top: 130px;
+  padding: 0 157px;
+}
+#plans > p {
+  text-align: center;
+  margin-top: 20px;
+}
+#plans > h2 {
+  text-align: center;
+}
+
+.plan-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  border-radius: 5px;
+  padding: 54px 25px;
+}
+.plan img {
+  max-width: 60px;
+}
+#plan-1 {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+#plan-2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+#plan-3 {
+  background-color: #fff4d6;
+}
+#blogs {
+  margin-top: 130px;
+  padding: 0 157px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 83px;
+}
+.blog img {
+  max-width: 456px;
+}
+.blog-text > div {
+  padding: 20px 0 30px 0;
+}
+#blog-2 {
+  flex-direction: row-reverse;
+}
+#update {
+  margin-top: 130px;
+  padding: 0 157px;
+  text-align: center;
+}
+#update > p{
+  padding: 20px 0 50px 0;
+}
+.email-box {
+  background-color: #FFF4D6;
+  padding: 76px 188px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+.input-container input {
+  font-size: 16px;
+  padding: 14px 17px;
+  color: #AA9F9F;
+  border: none;
+  background-color: #D9D9D9;
+  border-radius: 5px 0px 0px 5px;
+}
+.input-container button {
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 14px 42px;
+}
+footer {
+  height: 177px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+}
+footer h3 {
+  color: #FF5959;
+  font-family: 'Lobster', cursive;;
+  font-size: 36px;
+  letter-spacing: 0.5px;
+}
+footer p {
+  color: #D9DBE1;
+  font-family: 'Lobster', cursive;;
+  font-size: 14px;
+  letter-spacing: 0.5px;
 }
